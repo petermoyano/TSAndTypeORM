@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "lib": ["es2021", "ESNext"],
+    "target": "es2021",
+    "module": "ES6",
+    "moduleResolution": "Node",
+    "outDir": "./dist",
+    "rootDir": "./lib",
+    "declaration": true,
+    "declarationMap": true,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  }
+}

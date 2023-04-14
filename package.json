@@ -1,0 +1,32 @@
+{
+  "name": "tsandtypeorm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "cd test && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petermoyano/TSAndTypeORM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petermoyano/TSAndTypeORM/issues"
+  },
+  "homepage": "https://github.com/petermoyano/TSAndTypeORM#readme",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@types/typescript": "^2.0.0"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.1.6",
+    "typeorm": "^0.3.14"
+  }
+}
